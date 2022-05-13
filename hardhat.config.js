@@ -21,11 +21,17 @@ module.exports = {
     hardhat: {
     },
     huygens: {
-               blockGasLimit: 100000000429720,
-               gasPrice: 5000000000,
-      url: "http://18.182.45.18:8765/", //"https://huygens.ccn.org:8545",
+      //blockGasLimit: 100000000429720,
+      //gasPrice: 5000000000,
+      url: "http://13.212.177.203:8765", //"https://huygens.ccn.org:8545",
       accounts: ["E2596154BE49643D8B971ED433CDE0E1254C5966DAD8236CB29293B92EB96EF4"]
-    }
-  },
-  solidity: "0.8.4",
+    },
+    huygens_dev: {
+      //blockGasLimit: 100000000429720,
+      //gasPrice: 5000000000,
+      url: "http://18.182.45.18:8765",
+      accounts: ["E2596154BE49643D8B971ED433CDE0E1254C5966DAD8236CB29293B92EB96EF4"]
+    },
+},
+solidity: "0.8.4",
 };
